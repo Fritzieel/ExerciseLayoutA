@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="129dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="8dp"
+        android:text="Genre Movie"
+        android:textAllCaps="false"
+        android:textColor="#FF639A1B"
+        android:textColorLink="#8DE67F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="129dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="8dp"
+        android:text="Rating Movie"
+        android:textAllCaps="false"
+        android:textColor="#FF639A1B"
+        android:textColorLink="#8DE67F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683" />
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="288dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="645dp"
+        android:text="Movie Review"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="437dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="119dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="8dp"
+        android:text="About Movie"
+        android:textAllCaps="false"
+        android:textColor="#FF639A1B"
+        android:textColorLink="#8DE67F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <EditText
+        android:id="@+id/Starring"
+        android:layout_width="409dp"
+        android:layout_height="88dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Starring"
+        android:inputType="text"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <EditText
+        android:id="@+id/Direct"
+        android:layout_width="409dp"
+        android:layout_height="89dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Dirrector"
+        android:inputType="text"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="634dp" />
+
+    <EditText
+        android:id="@+id/write_review"
+        android:layout_width="409dp"
+        android:layout_height="88dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Write Review Here"
+        android:inputType="text"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <EditText
+        android:id="@+id/input_Movie"
+        android:layout_width="409dp"
+        android:layout_height="88dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Movie Name"
+        android:inputType="text"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <EditText
+        android:id="@+id/Input_year"
+        android:layout_width="185dp"
+        android:layout_height="88dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="year"
+        android:inputType="text"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <EditText
+        android:id="@+id/Input_Duration"
+        android:layout_width="209dp"
+        android:layout_height="89dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Duration"
+        android:inputType="text"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horror"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thriller"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crime"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Action"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Science Fiction"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animation"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Romance"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comedy"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drama"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+
+</android.support.constraint.ConstraintLayout>
